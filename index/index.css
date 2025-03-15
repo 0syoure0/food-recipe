@@ -3,12 +3,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     height: 100vh;
     background-color: #fff7e6;
+=======
+    height: 100vh; /* 화면 높이를 100%로 설정 */
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+>>>>>>> 12294450df38993a80d7230ccd110cb46de7c71f
 }
 
 /* header 스타일 */
 header {
+<<<<<<< HEAD
     background-color: #ffcc99;
     color: white;
     padding: 20px;
@@ -18,12 +27,19 @@ header {
     font-weight: bold;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px; /* 헤더 아래 여백 추가 */
+=======
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+>>>>>>> 12294450df38993a80d7230ccd110cb46de7c71f
 }
 
 h1 {
     margin: 0;
 }
 
+<<<<<<< HEAD
 /* 로그인, 회원가입 버튼 */
 #auth-buttons {
     position: fixed;  /* 페이지 스크롤 시에도 고정 */
@@ -41,6 +57,25 @@ h1 {
 }
 
 /* 검색창 스타일 */
+=======
+/* 메인 컨텐츠 스타일 */
+#main-content {
+    display: flex;
+    flex-direction: column; /* 세로 방향으로 배치 */
+    align-items: center; /* 가로 중앙 정렬 */
+    justify-content: center; /* 세로 중앙 정렬 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    margin-top: 20px; /* 위쪽 여백 */
+}
+
+/* 검색창 스타일 */
+#search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+>>>>>>> 12294450df38993a80d7230ccd110cb46de7c71f
 #search-input {
     width: 60%;
     padding: 15px;
@@ -54,12 +89,17 @@ button {
     font-size: 18px;
     border-radius: 5px;
     border: 1px solid #ccc;
+<<<<<<< HEAD
     background-color: #A3B46D;
+=======
+    background-color: #4CAF50;
+>>>>>>> 12294450df38993a80d7230ccd110cb46de7c71f
     color: white;
     cursor: pointer;
 }
 
 button:hover {
+<<<<<<< HEAD
     background-color:  #8F9B60;
 }
 
@@ -73,31 +113,45 @@ button:hover {
     padding: 20px;
     width: 100%;
     box-sizing: border-box;
+=======
+    background-color: #45a049;
+>>>>>>> 12294450df38993a80d7230ccd110cb46de7c71f
 }
 
 /* 카테고리 스타일 */
 .category-container {
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     margin: 20px 0;
     width: 80%;
     box-sizing: border-box;
+=======
+    margin: 20px;
+    width: 80%; /* 카테고리 너비 조정 */
+>>>>>>> 12294450df38993a80d7230ccd110cb46de7c71f
 }
 
 .category-group {
     display: flex;
     flex-direction: column;
     width: 45%;
+<<<<<<< HEAD
     background-color: white; /* 하얀색 배경 */
     padding: 15px;
     border-radius: 10px; /* 둥근 모서리 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 약간의 그림자 추가 */
+=======
+>>>>>>> 12294450df38993a80d7230ccd110cb46de7c71f
 }
 
 .category-group h2 {
     margin-bottom: 10px;
+<<<<<<< HEAD
     font-size: 18px;
     font-weight: bold;
+=======
+>>>>>>> 12294450df38993a80d7230ccd110cb46de7c71f
 }
 
 .category {
@@ -106,6 +160,7 @@ button:hover {
     margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
 input[type="checkbox"] {
     margin-right: 10px;
 }
@@ -126,4 +181,35 @@ input[type="checkbox"] {
         width: 80%;
         margin-bottom: 20px;
     }
+=======
+/* 버튼 스타일 */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* 폼 스타일 */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 200px;
+}
+
+form button {
+    padding: 10px 20px;
+>>>>>>> 12294450df38993a80d7230ccd110cb46de7c71f
 }
